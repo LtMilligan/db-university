@@ -48,3 +48,8 @@ AND hour > '14:00:00';
 SELECT *
 FROM `degrees`
 WHERE `level` LIKE 'magistrale';
+
+- Query 7
+
+SELECT COUNT(*) as quantity_departments
+FROM departments;
