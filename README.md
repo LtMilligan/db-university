@@ -53,3 +53,9 @@ WHERE `level` LIKE 'magistrale';
 
 SELECT COUNT(*) as quantity_departments
 FROM departments;
+
+- Query 8
+
+SELECT COUNT(*) as `no_phone_teachers`
+FROM `teachers`
+WHERE `phone` IS NULL;
