@@ -16,3 +16,9 @@ Pensiamo a quali entità (tabelle) creare per il nostro database e cerchiamo poi
 SELECT * 
 FROM `students` 
 WHERE YEAR(`date_of_birth`) = 1990;
+
+- Query 2
+
+SELECT *
+FROM `courses`
+WHERE `cfu` > 10;
