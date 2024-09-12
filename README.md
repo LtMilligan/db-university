@@ -70,3 +70,11 @@ UPDATE `teachers`
 SET `office_number`='126'
 WHERE `name` LIKE 'Pietro'
 AND `surname` LIKE 'Rizzo'
+
+- Query 11
+
+DELETE
+FROM `students`
+WHERE `name` LIKE 'Gioele'
+AND `surname` LIKE 'Miscia'
+AND `date_of_birth` LIKE '1988-07-18';
